@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day10_DeviceDriver", "Day10_DeviceDriver\Day10_DeviceDriver.vcxproj", "{17B542BD-8582-4073-8B07-4EE62413F3B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample-Test1", "Sample-Test1\Sample-Test1.vcxproj", "{DBF1290F-CF39-4D36-8512-A984A38E44A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{01BABD47-D682-4953-B01D-9551445816D1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Debug|x64.ActiveCfg = Debug|x64
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Debug|x64.Build.0 = Debug|x64
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Debug|x86.Build.0 = Debug|Win32
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Release|x64.ActiveCfg = Release|x64
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Release|x64.Build.0 = Release|x64
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Release|x86.ActiveCfg = Release|Win32
+		{17B542BD-8582-4073-8B07-4EE62413F3B1}.Release|x86.Build.0 = Release|Win32
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Debug|x64.ActiveCfg = Debug|x64
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Debug|x64.Build.0 = Debug|x64
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Debug|x86.Build.0 = Debug|Win32
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Release|x64.ActiveCfg = Release|x64
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Release|x64.Build.0 = Release|x64
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Release|x86.ActiveCfg = Release|Win32
+		{DBF1290F-CF39-4D36-8512-A984A38E44A7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47A1E044-59CC-483B-BF07-E51FD61FCE40}
+	EndGlobalSection
+EndGlobal
