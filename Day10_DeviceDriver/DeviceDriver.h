@@ -10,4 +10,8 @@ public:
 
 protected:
     FlashMemoryDevice* m_hardware;
+
+private:
+    void AssertReadFailException(int cnt);
+    void AssertWriteFailException(long address, int val);
 };
